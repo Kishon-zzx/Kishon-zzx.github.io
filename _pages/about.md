@@ -25,7 +25,9 @@ latest_posts:
 
 I am a second-year master student at the [Department of Computer Science and Engineering (CSE)](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/), advised by Prof. [Yulun Zhang](https://yulunzhang.com/) and Prof. [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/). Previously, I received my B.E. degree from SJTU in 2023.
 
-My research interests lie in model compression, particularly for large language models (LLMs), including techniques such as binarization and post-training quantization. Additionally, I focus on synthetic data augmentation and AI-generated content (AIGC), encompassing text-to-image and text-to-video generative models.
+My research interests lie in LLM/VLM/DiT model compression and acceleration, including techniques such as binarization and post-training quantization. Additionally, I focus on synthetic data augmentation and AI-generated content (AIGC), encompassing text-to-image and text-to-video generative models.
+
+I interned at [Sony AI](https://ai.sony/projects/ai-ethics/) and [Amazon ASAIL](https://www.amazonaws.cn/ailab/).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
