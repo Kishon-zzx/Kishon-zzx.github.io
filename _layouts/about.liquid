@@ -20,9 +20,17 @@ layout: default
           <div class="contact-icons">
             <a href="mailto:lzt-cnbg@sjtu.edu.cn" title="email"><i class="fa-solid fa-envelope"></i></a>
             <span class="divider" style="margin: 0 5px;"></span>
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             <span class="divider" style="margin: 0 5px;"></span>
-            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            <span class="divider" style="margin: 0 5px;"></span>
+            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <span class="divider" style="margin: 0 5px;"></span>
+            <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
+            <div id="WeChatMod" class="wechat-modal">
+              <img src="{{ site.data.socials.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+            </div>
+            <script defer src="{{ '/assets/js/wechat.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
             <span class="divider" style="margin: 0 5px;"></span>
             <a href="{{ '/assets/pdf/resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" title="Resume"><i class="fa-solid fa-file-pdf"></i></a>
             <!-- Add more social icons as needed -->
