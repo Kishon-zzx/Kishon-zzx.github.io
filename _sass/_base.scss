@@ -444,9 +444,15 @@ ul.task-list input[type="checkbox"] {
 // Social (top - in header)
 .social-small {
   .contact-icons {
-    font-size: 4.0rem;
+    font-size: 1.5rem !important;
 
     a {
+      font-size: inherit;
+
+      i {
+        font-size: 1.5rem !important;
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
