@@ -144,7 +144,7 @@
     {% elsif proceedings contains entry.type %}
       {% if entry.booktitle == "NeurIPS" -%}
         {%- capture entrytype -%}<em>In Advances in Neural Information Processing Systems</em>{%- endcapture -%}
-        {%- assign conf_tags = " <small>(Top Conf. in AI)</small> <strong>CCF-A</strong>" -%}
+        {%- assign conf_tags = " <small>(Top Conf. in ML)</small> <strong>CCF-A</strong>" -%}
       {%- elsif entry.booktitle == "ICCV" -%}
         {%- capture entrytype -%}<em>In International Conference on Computer Vision</em>{%- endcapture -%}
         {%- assign conf_tags = " <strong>CCF-A</strong>" -%}
@@ -156,10 +156,10 @@
         {%- assign conf_tags = " <small>(Top Tier in CV)</small> <strong>CCF-B</strong>" -%}
       {%- elsif entry.booktitle == "ICLR" -%}
         {%- capture entrytype -%}<em>In International Conference on Learning Representations</em>{%- endcapture -%}
-        {%- assign conf_tags = " <small>(Top Conf. in AI)</small> <strong>CCF-A</strong>" -%}
+        {%- assign conf_tags = " <small>(Top Conf. in ML)</small> <strong>CCF-A</strong>" -%}
       {%- elsif entry.booktitle == "ICML" -%}
         {%- capture entrytype -%}<em>In International Conference on Machine Learning</em>{%- endcapture -%}
-        {%- assign conf_tags = " <small>(Top Conf. in AI)</small> <strong>CCF-A</strong>" -%}
+        {%- assign conf_tags = " <small>(Top Conf. in ML)</small> <strong>CCF-A</strong>" -%}
       {%- elsif entry.booktitle == "AAAI" -%}
         {%- capture entrytype -%}<em>In Association for the Advancement of Artificial Intelligence</em>{%- endcapture -%}
         {%- assign conf_tags = " <small>(Top Conf. in AI)</small> <strong>CCF-A</strong>" -%}
