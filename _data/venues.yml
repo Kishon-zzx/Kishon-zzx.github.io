@@ -30,7 +30,7 @@
   color: "#00897b" # 青色/蓝绿色 (区分于纯软件，带有工程感)
   url: "https://iccad.com/"
 
-"ACL":
+"ACL-Main":
   color: "#3f51b5" # 靛蓝色 (兼具逻辑的理性和语言的深邃，NLP领域的经典色)
   url: "https://www.aclweb.org/"
 
@@ -38,6 +38,6 @@
   color: "#b31b1b" # 康奈尔红 (这是 arXiv 官方标志性的经典红色)
   url: "https://arxiv.org/"
 
-"EMNLP":
+"EMNLP-Main":
   color: "#673ab7"
   url: "https://aclanthology.org/venues/emnlp/"
