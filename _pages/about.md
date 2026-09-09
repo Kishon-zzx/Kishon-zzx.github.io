@@ -23,11 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year master student at the [School of Electrical and Electronic Engineering (EEE)](https://www.ntu.edu.sg/eee/), [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), advised by Prof. [Kim Tae Hyoung](https://sites.google.com/view/tonykimntu). I am currently an intern at [HOUMO.AI](https://houmoai.com/).
+I am a first-year Ph.D. student at the [School of Integrated Circuits, Peking University](https://ic.pku.edu.cn/), advised by Prof. [Guangyu Sun](https://ic.pku.edu.cn/szdw/zzjs/sjzdhyjsxtx1/sgy/index.htm) and Prof. [Lifeng Liu](https://ic.pku.edu.cn/szdw/zzjs/jcwndzx1/llf/index.htm). I am also a research intern at [HOUMO.AI](https://houmoai.com/), mentored by Dr. [Dawei Yang](https://scholar.google.com/citations?hl=en&user=j2ANma0AAAAJ).
 
-My research interests lie in Efficient AI, particularly in hardware-software co-design, model compression, and efficient inference acceleration such as quantization. I strongly believe that "compression is intelligence."
-
-I am always open to academic exchanges and interdisciplinary collaborations. Please feel free to reach out if you'd like to discuss research or potential synergies!
+My research interests lie in **Efficient AI for edge computing**, with a particular focus on **model compression, efficient inference, and hardware-software co-design**. I am always open to academic exchanges and interdisciplinary collaborations. Please feel free to reach out if you would like to discuss research or potential collaborations!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 

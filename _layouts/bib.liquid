@@ -169,6 +169,9 @@
       {%- elsif entry.booktitle == "ACL-Findings" -%}
         {%- capture entrytype -%}<em>In Findings of the Association for Computational Linguistics</em>{%- endcapture -%}
         {%- assign conf_tags = " <small>(Top Conf. in NLP)</small>" -%}
+      {%- elsif entry.booktitle == "EMNLP-Main" -%}
+        {%- capture entrytype -%}<em>In Conference on Empirical Methods in Natural Language Processing</em>{%- endcapture -%}
+        {%- assign conf_tags = " <small>(Top Conf. in NLP)</small> <strong>CCF-B</strong>" -%}
       {%- elsif entry.booktitle == "ICCAD" -%}
         {%- capture entrytype -%}<em>In International Conference on Computer-Aided Design</em>{%- endcapture -%}
         {%- assign conf_tags = " <small>(Top Conf. in EDA)</small> <strong>CCF-B</strong>" -%}  

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [TWLA]() is accepted by **ICML 2026**. 🎉🎉🎉
+Our paper [TWLA](https://arxiv.org/abs/2606.13054) is accepted by **ICML 2026**. 🎉🎉🎉

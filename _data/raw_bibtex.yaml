@@ -1,3 +1,14 @@
+zhao2026af1: |
+  @misc{zhao20261bitgenuine1bitposttraining,
+      title={All for 1-Bit: Towards Genuine 1-Bit Post-Training Quantization for LLMs}, 
+      author={Zhixiong Zhao and Zukang Xu and Guangyu Sun and Lifeng Liu and Dawei Yang},
+      year={2026},
+      eprint={2609.06161},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.06161}, 
+  }
+
 zhao2026twla: |
   @misc{zhao2026twlaachievingternaryweights,
       title={TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization}, 

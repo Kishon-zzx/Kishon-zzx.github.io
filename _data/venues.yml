@@ -37,3 +37,7 @@
 "arXiv":
   color: "#b31b1b" # 康奈尔红 (这是 arXiv 官方标志性的经典红色)
   url: "https://arxiv.org/"
+
+"EMNLP":
+  color: "#673ab7"
+  url: "https://aclanthology.org/venues/emnlp/"
