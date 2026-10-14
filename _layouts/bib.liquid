@@ -139,7 +139,9 @@
     
     {% assign conf_tags = "" %}
     
-    {% if entry.type == 'article' %}
+    {% if entry.preprint == 'true' %}
+      {% capture entrytype %}<em>arXiv preprint</em>{% endcapture %}
+    {% elsif entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% if entry.booktitle == "NeurIPS" -%}

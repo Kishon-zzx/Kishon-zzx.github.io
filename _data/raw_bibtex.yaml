@@ -60,3 +60,25 @@ zhao2025quark: |
     year={2025},
     organization={IEEE}
   }
+
+zhao2026loopquantaccurateefficientposttraining: |
+  @misc{zhao2026loopquantaccurateefficientposttraining,
+      title={LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers},
+      author={Zhixiong Zhao and Zukang Xu and Xing Hu and Lifeng Liu and Guangyu Sun and Dawei Yang},
+      year={2026},
+      eprint={2610.16368},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.16368},
+  }
+
+xu2026aceadaptivecalibrationfreeexpert: |
+  @misc{xu2026aceadaptivecalibrationfreeexpert,
+      title={ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs},
+      author={Zukang Xu and Zhixiong Zhao and Xing Hu and Jiangyong Yu and Houji Wen and Jun Li and Zhe Jiang and Dawei Yang},
+      year={2026},
+      eprint={2609.05228},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.05228},
+  }

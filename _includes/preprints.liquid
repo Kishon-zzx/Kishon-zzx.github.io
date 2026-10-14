@@ -1,0 +1,6 @@
+<div class="publications">
+  <p style="margin-top: -20px;"><sup>†</sup> Equal Contribution, <sup>*</sup> Corresponding Author(s)</p>
+  <hr>
+  {% comment %}Keep preprint entries in papers.bib ordered newest first.{% endcomment %}
+  {% bibliography --group_by none --query @*[preprint=true]* %}
+</div>
